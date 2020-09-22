@@ -11,4 +11,5 @@
 ### BEM
 
 [BEM && Sass summary - EN link](https://medium.com/@andrew_barnes/bem-and-sass-a-perfect-match-5e48d9bc3894)
+
 [BEM - vzhurudolu prirucka - CZ link](https://www.vzhurudolu.cz/prirucka/bem)
