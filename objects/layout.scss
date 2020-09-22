@@ -1,4 +1,24 @@
-.container {
+.main-container {
+  min-height: 50vh;
   width: 100%;
-  
+
+  &::before {
+    content: "";
+    opacity: .15;
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    background: url("#{$img-path}/patient.svg") no-repeat calc(100% + 140px) top / contain;
+    z-index: -1;
+
+    @media (max-width: $md) {
+      opacity: .1;
+    }
+  }
+}
+
+.container {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
 }

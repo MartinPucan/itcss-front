@@ -1,0 +1,26 @@
+.float-left {
+  float: left;
+}
+
+.d {
+  &-flex {
+    display: flex;
+  }
+
+  &-block {
+    display: block;
+  }
+
+  &-col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.aic {
+  align-items: center;
+}

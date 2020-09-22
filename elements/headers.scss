@@ -1,0 +1,32 @@
+.intro-header {
+  background: $primary;
+  color: $white;
+  font-size: 2.5rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  opacity: .9;
+  position: relative;
+
+  @media screen and (max-width: $sm) {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  @media screen and (max-width: $md) {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 96px;
+    bottom: -5px;
+    z-index: -1;
+    opacity: .3;
+    left: -2px;
+    transform: rotate(-1deg);
+    background: $primary;
+  }
+}
