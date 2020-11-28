@@ -1,8 +1,8 @@
 # Panicum - CSS Framework
 
-> Light-weight framework - only xx kB
+> Light-weight css framework
 
-### Structure of project by ITCSS - Inverted Triangle CSS
+### Project architecture by ITCSS - Inverted Triangle CSS
 
 [ITCSS - Adam Kudrna - Frontend garden - CZ](https://frontend.garden/proc-je-itcss-nejpokrocilejsi-metodika-organizace-css/)
 
