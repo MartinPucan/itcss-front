@@ -1,2 +1,7 @@
 .idea/
 .DS_Store
+.cache/
+node_modules/
+bundles/app.scss
+
+package-lock.json

@@ -1,8 +1,8 @@
-@import "settings/settings";
-@import "elements/elements";
-@import "objects/layout";
-@import "components/components";
-@import "utilities/utilities";
+@import "./settings/settings";
+@import "./elements/elements";
+@import "./objects/layout";
+@import "./components/components";
+@import "./utilities/utilities";
 
 html {
   scroll-behavior: smooth;

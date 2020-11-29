@@ -4,7 +4,8 @@
   "description": "CSS Lightweight Framework",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:css": "parcel watch bundles/*.scss --no-source-maps -d dist/ --no-hmr --public-url ./",
+    "build:css": "parcel build front/scss/*.scss --no-source-maps -d public/dist/css/ --public-url ./"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/MartinPucan/panicum/issues"
   },
-  "homepage": "https://github.com/MartinPucan/panicum#readme"
+  "homepage": "https://github.com/MartinPucan/panicum#readme",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.29.0"
+  }
 }
