@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev:css": "parcel watch bundles/*.scss --no-source-maps -d dist/ --no-hmr --public-url ./",
-    "build:css": "parcel build front/scss/*.scss --no-source-maps -d public/dist/css/ --public-url ./"
+    "build:css": "parcel build front/scss/*.scss --no-source-maps -d public/dist/css/ --public-url ./",
+	"fsg": "./node_modules/.bin/fsg"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/MartinPucan/panicum#readme",
   "dependencies": {
+    "file-structure-generator": "^1.0.5",
     "parcel": "^1.12.4"
   },
   "devDependencies": {
