@@ -11,10 +11,10 @@
     transform: scale(.85) translateY(2px);
     cursor: pointer;
     transition: .35s;
-    color: lighten($primary, 25%);
+    color: lighten($rhino, 25%);
 
     &.active {
-      color: $primary;
+      color: $rhino;
       transform: scale(1.15) translateY(0);
 
       &::after {
@@ -22,7 +22,7 @@
         position: absolute;
         animation: .5s forwards underlineFadeIn;
         height: 2px;
-        background: $primary;
+        background: $rhino;
         bottom: 4px;
         left: .5rem;
       }

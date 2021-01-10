@@ -1,5 +1,5 @@
 .wrapper-content {
   background: $serenade;
-  min-height: calc(100vh - #{$footer-h} - #{$header-h});
+  min-height: calc(100vh - #{$footer-size} - #{$header-size});
   width: 100%;
 }

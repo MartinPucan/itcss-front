@@ -71,13 +71,13 @@
     }
 
     &:hover {
-      background: lighten($primary, 2.5%);
+      background: lighten($rhino, 2.5%);
       transform: translateY(-3px);
       transition: .5s;
     }
 
     &.active {
-      background: lighten($primary, 5%);
+      background: lighten($rhino, 5%);
     }
   }
 }
