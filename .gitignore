@@ -2,6 +2,6 @@
 .DS_Store
 .cache/
 node_modules/
-bundles/app.scss
+src/bundles/app.scss
 
 package-lock.json

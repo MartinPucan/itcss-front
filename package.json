@@ -4,7 +4,7 @@
   "description": "CSS Lightweight Framework",
   "main": "index.js",
   "scripts": {
-    "dev:css": "parcel watch bundles/*.scss --no-source-maps -d dist/ --no-hmr --public-url ./",
+    "dev:css": "parcel watch src/bundles/*.scss --no-source-maps -d dist/ --no-hmr --public-url ./",
     "build:css": "parcel build front/scss/*.scss --no-source-maps -d public/dist/css/ --public-url ./",
     "fsg": "./node_modules/.bin/fsg"
   },
