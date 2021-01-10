@@ -2,6 +2,11 @@
 
 > Light-weight css framework
 
+### How to easily version a project
+npm version <update_type>
+
+then npm publish
+
 ### Project architecture by ITCSS - Inverted Triangle CSS
 
 [ITCSS - Adam Kudrna - Frontend garden - CZ](https://frontend.garden/proc-je-itcss-nejpokrocilejsi-metodika-organizace-css/)
