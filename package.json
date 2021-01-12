@@ -18,6 +18,9 @@
     "url": "https://github.com/MartinPucan/panicum/issues"
   },
   "homepage": "https://github.com/MartinPucan/panicum#readme",
+  "publishConfig": {
+	"registry":"https://npm.pkg.github.com"
+  },
   "dependencies": {
     "file-structure-generator": "^1.0.5",
     "parcel": "^1.12.4"
