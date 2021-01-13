@@ -1,6 +1,7 @@
 # Panicum - CSS Framework
 
-> Light-weight css framework
+[![npm version](https://badge.fury.io/js/panicum.svg)](//https://www.npmjs.com/package/panicum)
+[![downloads](https://img.shields.io/npm/dt/panicum.svg?maxAge=2592000)](https://www.npmjs.com/package/panicum)
 
 ### How to easily version a project
 npm version <update_type>

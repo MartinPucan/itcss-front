@@ -1,14 +1,12 @@
 .restriction-card {
   background: $white;
   box-shadow: 0 0 8px #c6c6c6;
-  max-width: 768px;
   margin: 1rem auto;
   display: flex;
-  overflow: hidden;
   border-radius: 12px;
 
   &__left {
-    flex-basis: 18%;
+    flex-basis: 20%;
     background: #bbbdc1;
     border-bottom-left-radius: 12px;
     border-top-left-radius: 12px;
@@ -28,7 +26,7 @@
   &__right {
     z-index: 10;
     background: $white;
-    flex-basis: 82%;
+    flex-basis: 80%;
     display: flex;
     flex-direction: column;
 
