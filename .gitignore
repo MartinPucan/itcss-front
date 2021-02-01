@@ -3,5 +3,3 @@
 .cache/
 node_modules/
 src/bundles/app.scss
-
-package-lock.json
