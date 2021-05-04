@@ -1,4 +1,6 @@
-$xs: 359px;
-$sm: 480px;
-$md: 768px;
-$lg: 992px;
+$breakpoints: (
+  small: 359px,
+  medium: 480px,
+  large: 768px,
+  xlarge: 992px,
+);
